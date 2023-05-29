@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr AMP\n"
+"POT-Creation-Date: 2023-05-21 16:05+0330\n"
+"PO-Revision-Date: 2023-05-21 16:06+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/Ticket/Frontend/Frontend.php:51
+msgid "Send"
+msgstr "ارسال"
+
+#: src/Pmpr/Module/Ticket/Frontend/Frontend.php:64
+#: src/Pmpr/Module/Ticket/Model/AbstractResponse.php:31
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:63
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Module/Ticket/Frontend/Frontend.php:72
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:36
+msgid "Tracking Code"
+msgstr "کد پیگیری"
+
+#: src/Pmpr/Module/Ticket/Frontend/Frontend.php:80
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:30
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pmpr/Module/Ticket/Model/AbstractResponse.php:23
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:34
+msgid "Attachment"
+msgstr "پیوست"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:22
+#: src/Pmpr/Module/Ticket/Model/Response.php:37
+msgid "Elected Response"
+msgstr "پاسخ منتخب"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:23
+msgid "Elected Responses"
+msgstr "پاسخ‌های منتخب"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:35
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:39
+#: src/Pmpr/Module/Ticket/Model/Respond.php:41
+#: src/Pmpr/Module/Ticket/Model/Response.php:20
+msgid "Response"
+msgstr "پاسخ"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:19
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:50
+msgid "Request"
+msgstr "درخواست"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:20
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:85
+msgid "Requests"
+msgstr "درخواست‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:31
+#: src/Pmpr/Module/Ticket/Model/Respond.php:36
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:22
+#: src/Pmpr/Module/Ticket/Ticket.php:23
+msgid "Ticket"
+msgstr "تیکت"
+
+#: src/Pmpr/Module/Ticket/Model/Respond.php:23
+msgid "Respond"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Model/Respond.php:24
+#: src/Pmpr/Module/Ticket/Model/Response.php:32
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:80
+msgid "Responds"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Model/Respond.php:32
+msgid "Responder"
+msgstr "پاسخ دهنده"
+
+#: src/Pmpr/Module/Ticket/Model/Response.php:21
+msgid "Responses"
+msgstr "پاسخ‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:23
+msgid "Tickets"
+msgstr "تیکت‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:29
+msgid "User"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:31
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:57
+msgid "Order"
+msgstr "ترتیب"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:32
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:55
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:33
+msgid "Site Link"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:35
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:56
+msgid "Product Category"
+msgstr "دسته محصول"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:45
+msgid "Question"
+msgstr "سوال"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:46
+msgid "Criticism"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:47
+msgid "Suggestion"
+msgstr "پیشنهاد"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:48
+msgid "Report"
+msgstr "گزارش"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:49
+msgid "Complaint"
+msgstr "شکایت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:51
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:58
+msgid "Site"
+msgstr "سایت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:59
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:67
+msgid "Open"
+msgstr "باز"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:68
+msgid "Closed"
+msgstr "بسته"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:69
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:73
+msgid "Low"
+msgstr "کم"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:74
+msgid "Normal"
+msgstr "معمولی"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:75
+msgid "High"
+msgstr "بالا"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:76
+msgid "Priority"
+msgstr "اولویت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:61
+msgid "Ticket Setting"
+msgstr "تنظیمات تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:62
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/Ticket/Setting.php:72 src/Pmpr/Module/Ticket/Setting.php:160
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:74
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:78
+msgid "Open & Close Ticket"
+msgstr "باز و بسته کردن تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:81
+msgid "Auto Close by Response"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:82
+msgid "Auto close thicket by first response from supporters."
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:86
+msgid "Auto Close by Pass Time"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:91 src/Pmpr/Module/Ticket/Setting.php:106
+msgid "Threshold (Day)"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:95
+msgid "Manual Close"
+msgstr "بسته شدن دستی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:100
+msgid "Reopen Ticket"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:101
+msgid "Reopen ticket by sending response"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:112
+msgid "Multiple Submits"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:115
+msgid "Sending Consecutive Tickets"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:119
+msgid "Sending Consecutive Responses"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:126
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/Pmpr/Module/Ticket/Setting.php:128
+msgid "Advanced Configuration"
+msgstr "پیکربندی پیشرفته"
+
+#: src/Pmpr/Module/Ticket/Setting.php:132
+msgid "Roles"
+msgstr "نقش‌های کاربری"
+
+#: src/Pmpr/Module/Ticket/Setting.php:135
+msgid "Submit Ticket By Guest"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:136
+msgid "By checking this option, unregistered users can submit a ticket."
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:140
+msgid "Client Roles"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:142
+msgid "Leave empty, if you want all user roles can submit a ticket."
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:146
+msgid "Agent Roles"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:148
+msgid "Selected user roles can manage tickets."
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:154
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/Pmpr/Module/Ticket/Setting.php:156
+msgid "Edit Ticket & Response"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:163
+msgid "Change Priority By Client"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:164
+msgid "By checking this option, users can change ticket priority."
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:170
+msgid "Edit Ticket"
+msgstr "ویرایش تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:173
+#: src/Pmpr/Module/Ticket/Setting.php:196
+msgid "By Agent"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:178
+#: src/Pmpr/Module/Ticket/Setting.php:187
+#: src/Pmpr/Module/Ticket/Setting.php:201
+#: src/Pmpr/Module/Ticket/Setting.php:210
+msgid "Threshold (Hour)"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:182
+#: src/Pmpr/Module/Ticket/Setting.php:205
+msgid "By Client"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:193
+msgid "Edit Response"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:223
+msgid "Agent"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:224
+msgid "Client"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:225
+msgid "Client & Agent"
+msgstr ""
+
+#: src/Pmpr/Module/Ticket/Setting.php:226
+msgid "None"
+msgstr "هیچکدام"
+
+#~ msgid ""
+#~ "Sorry, this file couldn't be sanitized so for security reasons wasn't "
+#~ "uploaded"
+#~ msgstr ""
+#~ "متاسفم، قادر به پاکسازی فایل مورد نظر نبودیم، به دلایل امنیتی فایل آپلود "
+#~ "نشد"
+
+#~ msgid "Full Size"
+#~ msgstr "اندازه کامل"
+
+#~ msgid "Thumbnail"
+#~ msgstr "تصویر بند انگشتی"
+
+#~ msgid "Medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Large"
+#~ msgstr "بزرگ"
+
+#~ msgid "AMP"
+#~ msgstr "شتابدهی موبایل"
+
+#~ msgid "Enable AMP"
+#~ msgstr "فعال سازی شتابدهی موبایل"
+
+#~ msgid "Endpoint"
+#~ msgstr "نقطه پایانی"
+
+#~ msgid "Exclude Posts"
+#~ msgstr "نوشته‌های مستثنی"
+

@@ -1,0 +1,1 @@
+PRHelper.getHook().on("DOMContentLoaded",(()=>{const e=PRFrontendHelper.getForm();e.loadForm(".ticket-form-wrapper",(t=>{e.onSubmit({messageWrapper:".ticket-message",action:PRHelper.getSetting().getOption("ajax.submit_ticket"),form:t})}))}));
