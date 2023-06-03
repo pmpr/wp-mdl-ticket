@@ -1,0 +1,61 @@
+<div class="wrap pr-ticket-show">
+    <h1 class="wp-heading-inline">{{ title|raw }}</h1>
+    <hr class="wp-header-end">
+
+    <div class="pr-ticket-container">
+        {% if items is defined
+            and items is not empty %}
+            <div class="pr-ticket-info">
+                <table>
+                    <thead>
+                    <tr>
+                        {% for item in data %}
+                            <th>{{ item.label|raw }}</th>
+                        {% endfor %}
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        {% for item in data %}
+                            <td>{{ item.value|raw }}</td>
+                        {% endfor %}
+                    </tr>
+                    </tbody>
+                </table>
+                {% if items.text is defined
+                    and items.text is not empty %}
+                    <div class="pr-ticket-text">{{ items.text.value|raw }}</div>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        <div class="pr-ticket-chat-container">
+            <header class="pr-ticket-chat-header">
+                {{ get_avatar(user.id, 55, {class: 'pr-ticket-user-avatar'})|raw }}
+                <span class="pr-ticket-user-name">{{ user.name }}</span>
+            </header>
+            <div class="pr-ticket-chat-list">
+                {% if chats is defined
+                    and chats is not empty
+                    and chats.items is defined
+                    and chats.items is not empty %}
+
+                    {% for chat in chats.items %}
+                        {% include get_template('../../chat', _self) with {
+                            text: chat.text,
+                            responder: chat.responder,
+                            created_at: chat.created_at,
+                        } %}
+                    {% endfor %}
+
+                {% else %}
+                    <div class="pr-ticket-chat-empty">{{ empty_message|raw }}</div>
+                {% endif %}
+            </div>
+
+            <div class="pr-ticket-chat-form">
+                {{ form|raw }}
+            </div>
+        </div>
+    </div>
+</div>
