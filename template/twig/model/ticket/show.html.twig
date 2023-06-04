@@ -29,31 +29,29 @@
             </div>
         {% endif %}
 
-        <div class="pr-ticket-chat-container">
-            <header class="pr-ticket-chat-header">
+        <div class="pr-ticket-conversion-container">
+            <header class="pr-ticket-conversion-header">
                 {{ get_avatar(user.id, 55, {class: 'pr-ticket-user-avatar'})|raw }}
                 <span class="pr-ticket-user-name">{{ user.name }}</span>
             </header>
-            <div class="pr-ticket-chat-list">
-                {% if chats is defined
-                    and chats is not empty
-                    and chats.items is defined
-                    and chats.items is not empty %}
+            <div class="pr-ticket-conversion-list">
+                {% if conversions is defined
+                    and conversions is not empty
+                    and conversions.items is defined
+                    and conversions.items is not empty %}
 
-                    {% for chat in chats.items %}
-                        {% include get_template('../../chat', _self) with {
-                            text: chat.text,
-                            responder: chat.responder,
-                            created_at: chat.created_at,
-                        } %}
+                    {% for conversion in conversions.items %}
+
+                        {{ pmpr_do_action('ticket_render_backend_conversion', conversion) }}
+
                     {% endfor %}
 
                 {% else %}
-                    <div class="pr-ticket-chat-empty">{{ empty_message|raw }}</div>
+                    <div class="pr-ticket-conversion-empty">{{ empty_message|raw }}</div>
                 {% endif %}
             </div>
 
-            <div class="pr-ticket-chat-form">
+            <div class="pr-ticket-conversion-form">
                 {{ form|raw }}
             </div>
         </div>

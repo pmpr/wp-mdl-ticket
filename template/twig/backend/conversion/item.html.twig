@@ -1,0 +1,21 @@
+{% set hasAgent = responder is defined and responder is not empty %}
+<div class="pr-ticket-conversion {% if hasAgent %}response{% else %}request{% endif %}">
+    <div class="pr-ticket-conversion-content">
+        <div class="pr-ticket-conversion-text">{{ wpautop(text)|raw }}</div>
+        {% if hasAgent %}
+
+            {{ render_user_data('avatar', responder, {size: 55, class: 'pr-ticket-user-avatar'})|raw }}
+
+        {% endif %}
+    </div>
+    <div class="pr-ticket-conversion-metadata">
+        <time class="pr-ticket-conversion-datetime" datetime="{{ created_at|esc_attr }}">
+            {{ created_at|datetime('j F Y H:i')|raw }}
+        </time>
+        {% if hasAgent %}
+
+            <span class="pr-ticket-conversion-agent">{{ render_user_data('name', responder)|raw }}</span>
+        {% endif %}
+
+    </div>
+</div>
