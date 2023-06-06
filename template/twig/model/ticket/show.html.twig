@@ -22,36 +22,32 @@
                     </tr>
                     </tbody>
                 </table>
-                {% if items.text is defined
-                    and items.text is not empty %}
-                    <div class="pr-ticket-text">{{ items.text.value|raw }}</div>
-                {% endif %}
             </div>
         {% endif %}
 
-        <div class="pr-ticket-conversion-container">
-            <header class="pr-ticket-conversion-header">
+        <div class="pr-ticket-conversation-container">
+            <header class="pr-ticket-conversation-header">
                 {{ get_avatar(user.id, 55, {class: 'pr-ticket-user-avatar'})|raw }}
                 <span class="pr-ticket-user-name">{{ user.name }}</span>
             </header>
-            <div class="pr-ticket-conversion-list">
-                {% if conversions is defined
-                    and conversions is not empty
-                    and conversions.items is defined
-                    and conversions.items is not empty %}
+            <div class="pr-ticket-conversation-list">
+                {% if items is defined
+                    and items is not empty
+                    and items.items is defined
+                    and items.items is not empty %}
 
-                    {% for conversion in conversions.items %}
+                    {% for item in items.items %}
 
-                        {{ pmpr_do_action('ticket_render_backend_conversion', conversion) }}
+                        {{ pmpr_do_action('ticket_render_backend_conversation', item) }}
 
                     {% endfor %}
 
                 {% else %}
-                    <div class="pr-ticket-conversion-empty">{{ empty_message|raw }}</div>
+                    <div class="pr-ticket-conversation-empty">{{ empty_message|raw }}</div>
                 {% endif %}
             </div>
 
-            <div class="pr-ticket-conversion-form">
+            <div class="pr-ticket-conversation-form">
                 {{ form|raw }}
             </div>
         </div>
