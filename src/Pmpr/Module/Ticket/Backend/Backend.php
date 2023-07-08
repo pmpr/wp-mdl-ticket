@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             64a01ea319f7d             |
+    |             64a909286d6b4             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket\Backend; class Backend extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function wigskegsqequoeks() { $this->waqewsckuayqguos(self::uuqoeigueqguouek . "\x72\x65\x6e\x64\x65\162\137\x62\x61\143\x6b\x65\156\144\137\x63\x6f\x6e\x76\145\x72\163\141\164\x69\157\x6e", [$this, "\x6d\153\145\145\x6f\x73\151\151\x6d\147\157\x79\x69\141\171\x6f"]); } public function iemaakgqgqosiecm() { $mumyimcwkaemyyue = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if (!$mumyimcwkaemyyue->mcgoysmkqsqooceq()) { goto sciwggaeogcoesiu; } Ajax::symcgieuakksimmu(); sciwggaeogcoesiu: } public function mkeeosiimgoyiayo($igqsaukqcqscimok) { echo $this->umqeyekmoagusaiq($igqsaukqcqscimok); } }
+ namespace Pmpr\Module\Ticket\Backend; class Backend extends Common { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function wigskegsqequoeks() { $this->waqewsckuayqguos(self::uuqoeigueqguouek . "\162\x65\156\144\x65\162\137\x62\141\x63\x6b\x65\156\144\x5f\143\157\156\x76\145\x72\163\x61\164\x69\x6f\156", [$this, "\x6d\x6b\145\145\157\163\x69\x69\155\x67\x6f\x79\x69\x61\x79\157"]); } public function iemaakgqgqosiecm() { $mumyimcwkaemyyue = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if (!$mumyimcwkaemyyue->mcgoysmkqsqooceq()) { goto qoqskyuuwueqkquk; } Ajax::symcgieuakksimmu(); qoqskyuuwueqkquk: } public function mkeeosiimgoyiayo($igqsaukqcqscimok) { echo $this->umqeyekmoagusaiq($igqsaukqcqscimok); } }
