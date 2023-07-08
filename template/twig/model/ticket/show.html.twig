@@ -26,6 +26,15 @@
         {% endif %}
 
         <div class="pr-ticket-conversation-container">
+            <header class="pr-ticket-conversation-header">
+                {% if user.avatar_url is not empty %}
+                    <img src="{{ user.avatar_url|esc_attr }}" alt="logo" class="pr-ticket-avatar" width="55" height="55">
+                {% endif %}
+                <div class="pr-ticket-profile">
+                    {{ render_if_has_content('strong', {class: 'pr-ticket-user-name'}, user.name) }}
+                    {{ render_if_has_content('div', {class: 'pr-ticket-user-subtext'}, user.subtext) }}
+                </div>
+            </header>
             <div class="pr-ticket-conversation-list">
                 {% if items is defined
                     and items is not empty
