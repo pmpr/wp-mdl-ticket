@@ -7,12 +7,12 @@
         <div class="pr-ticket-conversation-text">{{ wpautop(text)|raw }}</div>
     </div>
     <div class="pr-ticket-conversation-metadata">
-        <time class="pr-ticket-conversation-datetime" datetime="{{ created_at|esc_attr }}">
-            {{ created_at|datetime('j F Y H:i')|raw }}
-        </time>
         {% if hasAgent %}
 
-            <span class="pr-ticket-conversation-agent">{{ render_user_data('name', responder)|raw }}</span>
+            <span class="pr-ticket-conversation-agent">{{ render_user_data('name', responder)|raw }}&nbsp;&nbsp;</span>
         {% endif %}
+        <time class="pr-ticket-conversation-datetime" datetime="{{ created_at|esc_attr }}">
+            {{ created_at|datetime(format)|raw }}
+        </time>
     </div>
 </div>

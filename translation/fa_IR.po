@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Ticket\n"
-"POT-Creation-Date: 2023-07-01 16:04+0330\n"
-"PO-Revision-Date: 2023-07-01 16:08+0330\n"
+"POT-Creation-Date: 2023-07-26 17:49+0330\n"
+"PO-Revision-Date: 2023-07-26 17:49+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -22,11 +22,16 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
+#: src/Pmpr/Module/Ticket/Backend/Common.php:45
+#, php-format
+msgid "%s at %s"
+msgstr "%s ساعت %s"
+
 #: src/Pmpr/Module/Ticket/Frontend/Ajax.php:51
 #: src/Pmpr/Module/Ticket/Frontend/Ajax.php:92
 #: src/Pmpr/Module/Ticket/Frontend/Ajax.php:174
 msgid "your request is not valid, please refresh page and try again."
-msgstr "درخواست شما معتبر نیست، لطفا صفحه را رفرش کرده و مجدد امتحان کنید"
+msgstr "درخواست شما معتبر نیست، لطفا صفحه را رفرش کرده و مجدد امتحان کنید."
 
 #: src/Pmpr/Module/Ticket/Frontend/Ajax.php:56
 #: src/Pmpr/Module/Ticket/Frontend/Ajax.php:97
@@ -46,7 +51,7 @@ msgid "A ticket with the entered tracking code and email was not found."
 msgstr "تیکتی با کد پیگیری و ایمیل وارد شده یافت نشد."
 
 #: src/Pmpr/Module/Ticket/Frontend/Ajax.php:154
-#: src/Pmpr/Module/Ticket/Model/Ticket.php:173
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:154
 msgid "No messages here yet..."
 msgstr "هنوز پیامی ارسال نشده است ..."
 
@@ -54,24 +59,23 @@ msgstr "هنوز پیامی ارسال نشده است ..."
 msgid "A ticket with the entered tracking code was not found."
 msgstr "تیکتی با کد پیگیری وارد شده یافت نشد."
 
-#: src/Pmpr/Module/Ticket/Frontend/Form.php:68
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:65
 msgid "Send"
 msgstr "ارسال"
 
-#: src/Pmpr/Module/Ticket/Frontend/Form.php:86
-#: src/Pmpr/Module/Ticket/Frontend/Form.php:106
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:85
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:105
 #: src/Pmpr/Module/Ticket/Model/AbstractResponse.php:26
-#: src/Pmpr/Module/Ticket/Model/Ticket.php:233
 msgid "Text"
 msgstr "متن"
 
-#: src/Pmpr/Module/Ticket/Frontend/Form.php:112
-#: src/Pmpr/Module/Ticket/Frontend/Form.php:130
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:111
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:129
 #: src/Pmpr/Module/Ticket/Model/Ticket.php:38
 msgid "Email"
 msgstr "ایمیل"
 
-#: src/Pmpr/Module/Ticket/Frontend/Form.php:125
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:124
 #: src/Pmpr/Module/Ticket/Model/Ticket.php:43
 #: src/Pmpr/Module/Ticket/Setting.php:302
 msgid "Tracking Code"
@@ -236,12 +240,16 @@ msgstr "اولویت"
 msgid "Send Response"
 msgstr "ارسال پاسخ"
 
-#: src/Pmpr/Module/Ticket/Model/Ticket.php:286
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:244
+msgid "Sender"
+msgstr "ارسال کننده"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:293
 #, php-format
 msgid "Please enter a valid %s."
 msgstr "لطفا یک %s معتبر وارد کنید."
 
-#: src/Pmpr/Module/Ticket/Model/Ticket.php:291
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:298
 #, php-format
 msgid "%s can not be empty."
 msgstr "%s نمی تواند خالی باشد."
@@ -421,7 +429,7 @@ msgstr "آستانه (ساعت)"
 #: src/Pmpr/Module/Ticket/Setting.php:254
 #: src/Pmpr/Module/Ticket/Setting.php:277
 msgid "By Client"
-msgstr "توسط مشتری"
+msgstr "توسط کلاینت"
 
 #: src/Pmpr/Module/Ticket/Setting.php:265
 msgid "Edit Response"
@@ -449,11 +457,11 @@ msgstr "پیام مهمان"
 
 #: src/Pmpr/Module/Ticket/Setting.php:353
 msgid "Agent"
-msgstr "نماینده"
+msgstr "پاسخگو"
 
 #: src/Pmpr/Module/Ticket/Setting.php:354
 msgid "Client"
-msgstr "مشتری"
+msgstr "کلاینت"
 
 #: src/Pmpr/Module/Ticket/Setting.php:355
 msgid "Client & Agent"
