@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6687085b8bd11             |
+    |             66cb570e0b6ec             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Ticket\Moderator; use Pmpr\Common\Foundation\Traits\InstanceTrait; class Moderator { use InstanceTrait; public final function wqmkwyeuqimyiiaw() : Ticket { return $this->symcgieuakksimmu(Ticket::class); } public final function eykosmsuqcyueagm() : Response { return $this->symcgieuakksimmu(Response::class); } public final function yyqgamuwwakgciey() : Request { return $this->symcgieuakksimmu(Request::class); } }
