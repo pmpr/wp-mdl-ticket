@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66cb570e0b6ec             |
+    |             66ce11e4813aa             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket\REST; class Request extends Common { public function __construct() { $this->rest_base = self::qgeesceacsmeqacu; parent::__construct(); } }
+ namespace Pmpr\Module\Ticket\REST; use Pmpr\Common\Foundation\Interfaces\Constants; class Request extends Common { public function __construct() { $this->rest_base = Constants::qgeesceacsmeqacu; parent::__construct(); } }

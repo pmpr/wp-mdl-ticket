@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66cb570e0b6ec             |
+    |             66ce11e4813aa             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket\REST; use Pmpr\Module\Ticket\Traits\SubmissionTrait; use WP_Error; use WP_HTTP_Response; use WP_REST_Request; use WP_REST_Response; class Ticket extends Common { use SubmissionTrait; public function __construct() { $this->rest_base = "\164\x69\x63\x6b\x65\164"; parent::__construct(); } }
+ namespace Pmpr\Module\Ticket\REST; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\Ticket\Traits\SubmissionTrait; class Ticket extends Common { use SubmissionTrait; public function __construct() { $this->rest_base = Constants::yeaekcacwwyyqigq; parent::__construct(); } }

@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66cb570e0b6ec             |
+    |             66ce11e4813aa             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket\Model; use Pmpr\Common\Foundation\ORM\DB\Model; use Pmpr\Module\Ticket\Interfaces\CommonInterface; abstract class Common extends Model implements CommonInterface { public function ckgmycmaukqgkosk() { $wksoawcgagcgoask = self::akuociswqmoigkas(); $this->oyeskqayoscwciem()->myysgyqcumekoueo()->okgmqaeuaeymaocm($wksoawcgagcgoask)->wiskakymeaywyeuw($wksoawcgagcgoask); parent::ckgmycmaukqgkosk(); } }
+ namespace Pmpr\Module\Ticket\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\ORM\DB\Model; use Pmpr\Module\Ticket\Ticket as Initiator; abstract class Common extends Model { const asywgyemkouimocw = Initiator::uuqoeigueqguouek . Constants::gouqcwikiiygyasc; public function ckgmycmaukqgkosk() { $wksoawcgagcgoask = $this->akuociswqmoigkas(); $this->oyeskqayoscwciem()->myysgyqcumekoueo()->okgmqaeuaeymaocm($wksoawcgagcgoask)->wiskakymeaywyeuw($wksoawcgagcgoask); parent::ckgmycmaukqgkosk(); } }
