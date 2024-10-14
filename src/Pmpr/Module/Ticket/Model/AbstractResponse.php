@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f43aadda0db             |
+    |             670d4b8003cc0             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket\Model; use Pmpr\Common\Foundation\Interfaces\Constants; abstract class AbstractResponse extends Common { public $timestamps = [self::CREATED_AT]; public function ckgmycmaukqgkosk() { parent::ckgmycmaukqgkosk(); $this->esoauokkgywesoku([Constants::cqycgsyykemiygou => __("\x41\164\164\141\x63\150\x6d\145\156\164", PR__CMN__FOUNDATION)]); } public function ewaqwooqoqmcoomi() { $this->cquokmemekqqywgi($this->gysoeyaguiyewoes(Constants::TEXT)->gswweykyogmsyawy(__("\x54\x65\x78\x74", PR__MDL__TICKET))); parent::ewaqwooqoqmcoomi(); } }
+ namespace Pmpr\Module\Ticket\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\ORM\Model; abstract class AbstractResponse extends Model { const asywgyemkouimocw = Constants::yeaekcacwwyyqigq . Constants::mswocgcucqoaesaa; public function register() { $this->esoauokkgywesoku(Constants::cqycgsyykemiygou, __("\101\164\x74\x61\143\150\155\145\x6e\x74", PR__CMN__FOUNDATION)); } public function uwmqacgewuauagai() { $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $this->cquokmemekqqywgi($eqwoegegiamegqsm->gysoeyaguiyewoes(Constants::TEXT)->gswweykyogmsyawy(__("\124\x65\x78\164", PR__MDL__TICKET)))->cquokmemekqqywgi($eqwoegegiamegqsm->qwwuoqeeiyuoyogs(Constants::CREATED_AT)->gswweykyogmsyawy(__("\x43\x72\x65\x61\164\145\x64\x20\x41\x74", PR__MDL__TICKET))->qcqeqimisiisswky()); parent::uwmqacgewuauagai(); } }

@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f43aadda0db             |
+    |             670d4b8003cc0             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { public function __construct() { $this->settingObj = Setting::symcgieuakksimmu(); parent::__construct(); } }
+ namespace Pmpr\Module\Ticket; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { }
